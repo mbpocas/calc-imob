@@ -1,0 +1,63 @@
+.form-control-range {
+    width: 100%; /* Faz o input range ocupar todo o espaço disponível */
+}
+
+input[type="radio"] {
+    width: 15px; /* largura da bolinha */
+    height: 15px; /* altura da bolinha */
+}
+
+a {
+    text-decoration: none; /* Remover sublinhado */
+    color: black; /* Definir cor do texto */
+}
+
+a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
+
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+  
+
+.cards-dash {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+#btn-simular {
+    border: 1px solid #7600CB;
+    background-color: #7600CB;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#btn-simular:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    border: solid black 1px;
+}
+
+#loading {
+    display: none;
+    text-align: center;
+    color: #7600CB;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+#loading i {
+    font-size: 4rem;
+    color: #7600CB;
+}
+
+#loading p {
+    font-size: 24px;
+}

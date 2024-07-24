@@ -1,0 +1,63 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body {
+    background-color: #7600CB;
+    font-family: 'Montserrat', sans-serif;
+}zz
+
+.custom-btn {
+    width: 150px; 
+    font-weight: 500;
+    background-color: white; 
+    color:black;
+    border-radius: 20px;
+    border: 2px solid black; /* Aumentando a espessura da borda */
+    transition: border-color 0.3s; /* Transição suave para a cor da borda */
+    margin-left: 20px;
+}
+
+
+.custom-btn:hover {
+    color: black; /* Mantendo a cor do texto ao passar o mouse */
+    border-color: black; /* Mantendo a cor da borda ao passar o mouse */
+    background-color: white; 
+}
+
+.cards-dash {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none; /* Remover sublinhado */
+    color: black; /* Definir cor do texto */
+}
+
+a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
+
+.cancel-btn {
+    text-decoration: none; /* Remover decoração padrão */
+    color: black; /* Definir cor do texto */
+}
+
+.cancel-btn:hover {
+    text-decoration: none; /* Remover decoração ao passar o mouse */
+}
+
+.custom-list {
+    list-style-type: square; /* Remove default list styling */
+    padding: 0;
+    display: flex; /* Display items in a row */
+    flex-direction: column;
+    gap:20px;  /* Adjust spacing as needed */
+    color: white;
+}
